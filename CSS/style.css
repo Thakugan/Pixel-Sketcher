@@ -4,15 +4,58 @@
     margin-top: 40px;
 }
 
+.artWrapper {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.colorPicker {
+    background-color: #999;
+    border-radius: 10px;
+    width: 275px;
+    height: 500px;
+    float: left;
+}
+
+.canvas {
+    width: 500px;
+    height: 500px;
+    display: block;
+    float: right;
+    margin: 0px auto;
+    margin-top: 3px;
+}
+
+.pixel {
+    background-color: #FFF;
+    border-style: solid;
+    border-color: #999;
+    border-width: thin;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin: 0px auto;
+    padding: 0px;
+}
+
 h1 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
-  display: block;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-  margin: 0px auto;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0px auto;
+}
+
+#colored {
+    background-color: #FFF;
+}
+
+#blank {
+    background-color: #000;
+    border-color: #FFF;
 }
